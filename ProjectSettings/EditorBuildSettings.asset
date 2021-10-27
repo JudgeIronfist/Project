@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/GroundPlaneDemo.unity
+    guid: 5bdcb2172a0ed4e4287574d90668bd6a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 68d0c94536e70b146b2bb4ac4bc90fcd,
       type: 2}
