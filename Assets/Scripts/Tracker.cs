@@ -35,7 +35,11 @@ public class Tracker : MonoBehaviour
 
     public void UpdateText()
     {
+<<<<<<< Updated upstream
         debugText.text = "new text here";
+=======
+        debugText.text = "no new text here";
+>>>>>>> Stashed changes
 
         foreach(KeyValuePair<GameObject, bool> objectStatus in objectTrackStatus)
         {
