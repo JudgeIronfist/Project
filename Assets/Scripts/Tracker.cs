@@ -45,7 +45,11 @@ public class Tracker : MonoBehaviour
 
     private void Update()
     {
+<<<<<<< Updated upstream
         // I have also put a comment here.
+=======
+        // I have put a comment here
+>>>>>>> Stashed changes
 
         UpdateText();
     }
