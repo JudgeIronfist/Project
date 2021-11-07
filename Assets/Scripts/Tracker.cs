@@ -42,11 +42,4 @@ public class Tracker : MonoBehaviour
             debugText.text += objectStatus.Key.name + ": " + objectStatus.Value + '\n';
         }
     }
-
-    private void Update()
-    {
-        // DON'T DELETE UPDATE
-
-        UpdateText();
-    }
 }
