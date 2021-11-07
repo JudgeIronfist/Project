@@ -1,83 +1,90 @@
+Unity Editor version:    2020.3.20f1 (41c4e627c95f)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16324 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\2020.3.20f1\Editor\Unity.exe
+/Applications/2020.3.20f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/NP/Misc/Dev Work/ITD/Vuforia AR Fresh/Project
+/Users/cel9/Desktop/Github Conflict Reso Tests/Untitled/Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49775
-Successfully changed project path to: E:/NP/Misc/Dev Work/ITD/Vuforia AR Fresh/Project
-E:/NP/Misc/Dev Work/ITD/Vuforia AR Fresh/Project
+50774
+Successfully changed project path to: /Users/cel9/Desktop/Github Conflict Reso Tests/Untitled/Project
+/Users/cel9/Desktop/Github Conflict Reso Tests/Untitled/Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.96 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 2.02 ms.
+Refreshing native plugins compatible for Editor in 49.84 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 8.21 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
-[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/NP/Misc/Dev Work/ITD/Vuforia AR Fresh/Project/Assets
+[Subsystems] Discovering subsystems at path /Applications/2020.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/cel9/Desktop/Github Conflict Reso Tests/Untitled/Project/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1b83)
-    Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6192
+2021-11-07 12:05:39.207 Unity[2058:40923] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-11-07 12:05:39.207 Unity[2058:40923] Metal devices available: 2
+2021-11-07 12:05:39.207 Unity[2058:40923] 0: AMD Radeon Pro 5300M (high power)
+2021-11-07 12:05:39.207 Unity[2058:40923] 1: Intel(R) UHD Graphics 630 (low power)
+2021-11-07 12:05:39.208 Unity[2058:40923] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
 Initialize mono
-Mono path[0] = 'C:/Program Files/2020.3.20f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Mono path[0] = '/Applications/2020.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56058
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003411 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.27 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
+Register platform support module: /Applications/2020.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000607 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.62 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 4.30 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.609 seconds
+- Completed reload, in  2.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2609ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (2533ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (222ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (190ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007997 seconds.
+Registered in 0.003596 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 3.51 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
@@ -85,11 +92,13 @@ System.NullReferenceException: Object reference not set to an instance of an obj
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
   at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
   at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
 
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
@@ -98,193 +107,187 @@ System.NullReferenceException: Object reference not set to an instance of an obj
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
   at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
   at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.471 seconds
+- Completed reload, in  1.149 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1472ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (1149ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1191ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (462ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (316ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
+Validating Project structure ... 0.009352 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.020547 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2021-11-07 12:05:44.814 Unity[2058:40923] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009bd730 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-11-07 12:05:44.818 Unity[2058:40923] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009a1a40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 4.42 ms.
 Unloading 1612 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.2 MB.
-System memory in use after: 78.2 MB.
+System memory in use before: 214.1 MB.
+System memory in use after: 213.3 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 3.569800 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.076000 ms MarkObjects: 3.198200 ms  DeleteObjects: 0.109700 ms)
+Unloading 175 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 4.254352 ms (FindLiveObjects: 0.265360 ms CreateObjectMapping: 0.083983 ms MarkObjects: 3.279794 ms  DeleteObjects: 0.624059 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reticle_midair_screen.png
-  artifactKey: Guid(3c55e1ece084d4d22be15eff1845a7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reticle_midair_screen.png using Guid(3c55e1ece084d4d22be15eff1845a7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825d4ab6fc91227d71babd805d0482f6') in 0.291415 seconds 
-  Import took 0.294920 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(fd21ded62c0d87e4dbd4cdb8d240eb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(fd21ded62c0d87e4dbd4cdb8d240eb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a79d522d65049ce4b69c5ce2bb01289') in 0.003569 seconds 
+  Import took 0.006246 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Textures/ChairShadow.png
-  artifactKey: Guid(a4dcdf2d65a664c9cbf1ce6473d91463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Textures/ChairShadow.png using Guid(a4dcdf2d65a664c9cbf1ce6473d91463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59751cf3f68319cbb21fa1fab27f23c5') in 0.044305 seconds 
-  Import took 0.064830 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scripts/Tracker.cs
+  artifactKey: Guid(bae5eb3a79dea3e4a98edda64704cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tracker.cs using Guid(bae5eb3a79dea3e4a98edda64704cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1f37461d8183c740539f01f88acf1b') in 1.592111 seconds 
+  Import took 1.594910 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Models/Chair.fbx
-  artifactKey: Guid(e9cc4ef39943a4d3b9449ca70928e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Models/Chair.fbx using Guid(e9cc4ef39943a4d3b9449ca70928e0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150299d84d9917fdd6cf5dbae6586fd3') in 0.140675 seconds 
-  Import took 0.144432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/astronaut_off.png
-  artifactKey: Guid(4237e85639b064cb4ae44bb7c0df7510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/astronaut_off.png using Guid(4237e85639b064cb4ae44bb7c0df7510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134bf043680ef086118c0a8b50b40b47') in 0.050610 seconds 
-  Import took 0.053628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/placement_rotate.png
-  artifactKey: Guid(47f00f85519874b268e4f4c11fc36813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/placement_rotate.png using Guid(47f00f85519874b268e4f4c11fc36813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0117f4b5639d200e05bc6f93d44566db') in 0.061017 seconds 
-  Import took 0.084682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/chair_off.png
-  artifactKey: Guid(a9b11157d83054efabf7da70999df974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/chair_off.png using Guid(a9b11157d83054efabf7da70999df974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff59425257aba611c5fd012081cf1132') in 0.045563 seconds 
-  Import took 0.048598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reset_256.png
-  artifactKey: Guid(c9fcf52e9e3034d9e8ee6b7739d10667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reset_256.png using Guid(c9fcf52e9e3034d9e8ee6b7739d10667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f8c2e921f3ea3b37daabb9370809f4') in 0.032977 seconds 
-  Import took 0.035976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/chair_on.png
-  artifactKey: Guid(a5695f9414f5247d7a4114245d50b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/chair_on.png using Guid(a5695f9414f5247d7a4114245d50b61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2f2c99d03606c5311eebeb638f761a') in 0.036695 seconds 
-  Import took 0.040087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/drone_on.png
-  artifactKey: Guid(507615882c630471e818bfc6a7985bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/drone_on.png using Guid(507615882c630471e818bfc6a7985bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e8ee7f0f6b2a7f99f92002f557206a') in 0.056823 seconds 
-  Import took 0.059917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reticle_ground_surface.png
-  artifactKey: Guid(c4c421fec75744e75b27b0d0f46240ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reticle_ground_surface.png using Guid(c4c421fec75744e75b27b0d0f46240ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4e015b05202752c268c5115ebe0679') in 0.041822 seconds 
-  Import took 0.062636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/astronaut_on.png
-  artifactKey: Guid(12e3a18dd1bc545e4b8068297844c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/astronaut_on.png using Guid(12e3a18dd1bc545e4b8068297844c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b439ad8f8e731c5085cbedbea976f93c') in 0.054866 seconds 
-  Import took 0.058357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reticle_ground_screen.png
-  artifactKey: Guid(4d2f4a9eb8f7e4b9f85a1012011a108c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/reticle_ground_screen.png using Guid(4d2f4a9eb8f7e4b9f85a1012011a108c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056123a675f01c09c355cdfa2b2191c2') in 0.046194 seconds 
-  Import took 0.049388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/drone_off.png
-  artifactKey: Guid(7d5d69595d5d74979a908df2365b5835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/drone_off.png using Guid(7d5d69595d5d74979a908df2365b5835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2396ea0193e9cfc02d6be3474c03743') in 0.055004 seconds 
-  Import took 0.057956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/placement_translate.png
-  artifactKey: Guid(8ec2309f890f8493190a8b7cf072f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SamplesResources/SceneAssets/GroundPlane/Sprites/placement_translate.png using Guid(8ec2309f890f8493190a8b7cf072f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f145ec8a9a788d4254e447e3eaee3e') in 0.045076 seconds 
-  Import took 0.087240 seconds .
+  Time since last request: 1192.153790 seconds.
+  path: Assets/Scripts/Tracker.cs
+  artifactKey: Guid(bae5eb3a79dea3e4a98edda64704cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tracker.cs using Guid(bae5eb3a79dea3e4a98edda64704cf7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54897acf308c57be800c2f5610ed10b2') in 0.002004 seconds 
+  Import took 0.004901 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 9.66 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 48.5 MB.
-System memory in use after: 48.6 MB.
+Registering precompiled user dll's ...
+Registered in 0.004003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 6.03 ms.
+2021-11-07 12:25:45.287 Unity[2058:40923] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000009a2a00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2329.
-Total: 5.473000 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.142800 ms MarkObjects: 5.041200 ms  DeleteObjects: 0.036000 ms)
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1168ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 6 plugins.
+Preloading 3 native plugins for Editor in 4.22 ms.
+Unloading 1582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.1 MB.
+System memory in use after: 214.2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 3.696568 ms (FindLiveObjects: 0.198002 ms CreateObjectMapping: 0.074151 ms MarkObjects: 3.350968 ms  DeleteObjects: 0.072329 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
