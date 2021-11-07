@@ -35,7 +35,7 @@ public class Tracker : MonoBehaviour
 
     public void UpdateText()
     {
-        debugText.text = "";
+        debugText.text = "new text here";
 
         foreach(KeyValuePair<GameObject, bool> objectStatus in objectTrackStatus)
         {
