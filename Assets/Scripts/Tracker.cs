@@ -42,16 +42,11 @@ public class Tracker : MonoBehaviour
             debugText.text += objectStatus.Key.name + ": " + objectStatus.Value + '\n';
         }
     }
-<<<<<<< Updated upstream
-=======
 
     private void Update()
     {
-        // DON'T DELETE UPDATE
-
-        // PLS NO
+        // I have also put a comment here.
 
         UpdateText();
     }
->>>>>>> Stashed changes
 }
